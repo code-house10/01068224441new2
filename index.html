@@ -81,6 +81,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </script>
 
     <style>
+        :root {
+            /* ========================================= */
+            /* LOGO SIZE CONTROLS (SETTINGS)       */
+            /* ========================================= */
+            /* Change these values to control the logo size */
+            --header-logo-width: 70px;   
+            --header-logo-height: 70px;  
+            
+            --footer-logo-width: 35px;   
+            --footer-logo-height: 35px;  
+        }
+
         body {
             font-family: "Cairo", sans-serif;
             background-color: #f3f4f6;
@@ -338,6 +350,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         .animate-ring {
             animation: ring 1.8s ease-in-out infinite;
         }
+
+        /* Custom Logo Classes */
+        .custom-logo-header {
+            width: var(--header-logo-width);
+            height: var(--header-logo-height);
+        }
+        .custom-logo-footer {
+            width: var(--footer-logo-width);
+            height: var(--footer-logo-height);
+        }
     </style>
 </head>
 <body class="bg-layout-bg">
@@ -358,7 +380,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="section-shell flex items-center justify-between gap-4">
                 <a href="#" class="flex items-center gap-2">
                     <!-- LOGO IMAGE ADDED -->
-                    <img src="images/logo.jpg" alt="شعار شركة المميز يوسف الصديق" class="w-12 h-12 rounded-2xl object-cover shadow-soft" />
+                    <img src="https://ik.imagekit.io/mkek1asn5/images/logo3.webp" alt="شعار شركة المميز يوسف الصديق" class="custom-logo-header rounded-2xl object-cover shadow-soft" />
                     
                     <div>
                         <div class="text-sm font-semibold text-slate-600">
@@ -466,7 +488,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <!-- Slide 1 -->
                     <div class="swiper-slide hero-slide relative">
                         <img
-                            src="images/عمالة-مدربة-باحترافية.png"
+                            src="https://ik.imagekit.io/mkek1asn5/images/عمالة-مدربة-باحترافية.webp"
                             alt="نقل عفش باحترافية"
                             class="hero-bg-img"
                             onerror="this.src='https://placehold.co/1200x800/0f172a/e0f2fe?text=Hekma+Moving'"
@@ -588,7 +610,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <!-- Slide 2 -->
                     <div class="swiper-slide hero-slide relative">
                         <img
-                            src="images/slide4.jpg"
+                            src="https://ik.imagekit.io/mkek1asn5/images/slide4.webp"
                             alt="فك وتركيب وتغليف"
                             class="hero-bg-img"
                             onerror="this.src='https://placehold.co/1200x800/0f172a/e0f2fe?text=Hekma+Moving'"
@@ -635,7 +657,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <!-- Slide 3 -->
                     <div class="swiper-slide hero-slide relative">
                         <img
-                            src="images/slide1.png"
+                            src="https://ik.imagekit.io/mkek1asn5/images/slide1.webp"
                             alt="أوناش رفع حديثة"
                             class="hero-bg-img"
                             onerror="this.src='https://placehold.co/1200x800/0f172a/e0f2fe?text=Hekma+Moving'"
@@ -764,7 +786,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <!-- Example card – مدينة نصر -->
                         <div class="card bg-layout-subtle rounded-2xl overflow-hidden">
                             <img
-                                src="images/نقل_عفش_مدينة_نصر.jpg"
+                                src="https://ik.imagekit.io/mkek1asn5/images/نقل_عفش_مدينة_نصر.webp"
                                 alt="نقل عفش مدينة نصر"
                                 class="w-full h-40 object-cover"
                                 onerror="this.src='https://placehold.co/400x300/f9fafb/6b7280?text=Moving+in+Nasr+City'"
@@ -782,7 +804,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <div class="card bg-layout-subtle rounded-2xl overflow-hidden">
                             <img
-                                src="images/نقل-عفش-مصر-الجديدة.jpg"
+                                src="https://ik.imagekit.io/mkek1asn5/images/نقل-عفش-مصر-الجديدة.webp"
                                 alt="نقل عفش مصر الجديدة"
                                 class="w-full h-40 object-cover"
                                 onerror="this.src='https://placehold.co/400x300/f9fafb/6b7280?text=Moving+in+Heliopolis'"
@@ -800,7 +822,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <div class="card bg-layout-subtle rounded-2xl overflow-hidden">
                             <img
-                                src="images/نقل-عفش-التجمع-الخامس-ومدينتي-والرحاب.jpg"
+                                src="https://ik.imagekit.io/mkek1asn5/images/نقل-عفش-التجمع-الخامس-ومدينتي-والرحاب.webp"
                                 alt="نقل عفش التجمع ومدينتي والرحاب"
                                 class="w-full h-40 object-cover"
                                 onerror="this.src='https://placehold.co/400x300/f9fafb/6b7280?text=Moving+in+New+Cairo'"
@@ -818,7 +840,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <div class="card bg-layout-subtle rounded-2xl overflow-hidden">
                             <img
-                                src="images/نقل-عفش-الشيخ-زايد-و6-أكتوبر.jpg"
+                                src="https://ik.imagekit.io/mkek1asn5/images/نقل-عفش-الشيخ-زايد-و6-أكتوبر.webp"
                                 alt="نقل عفش الشيخ زايد وأكتوبر"
                                 class="w-full h-40 object-cover"
                                 onerror="this.src='https://placehold.co/400x300/f9fafb/6b7280?text=Moving+in+Zayed+%26+October'"
@@ -836,7 +858,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <div class="card bg-layout-subtle rounded-2xl overflow-hidden">
                             <img
-                                src="images/نقل-عفش-المعادي-وحلوان.jpg"
+                                src="https://ik.imagekit.io/mkek1asn5/images/نقل-عفش-المعادي-وحلوان.webp"
                                 alt="نقل عفش المعادي وحلوان"
                                 class="w-full h-40 object-cover"
                                 onerror="this.src='https://placehold.co/400x300/f9fafb/6b7280?text=Moving+in+Maadi'"
@@ -854,7 +876,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <div class="card bg-layout-subtle rounded-2xl overflow-hidden">
                             <img
-                                src="images/نقل-عفش-المهندسين-والدقي-والعجوزة.jpg"
+                                src="https://ik.imagekit.io/mkek1asn5/images/نقل-عفش-المهندسين-والدقي-والعجوزة.webp"
                                 alt="نقل عفش المهندسين والدقي"
                                 class="w-full h-40 object-cover"
                                 onerror="this.src='https://placehold.co/400x300/f9fafb/6b7280?text=Moving+in+Mohandeseen'"
@@ -1153,7 +1175,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-sm">
                         <div class="card bg-layout-surface rounded-2xl overflow-hidden">
                             <img
-                                src="images/عمالة-مدربة-باحترافية.png"
+                                src="https://ik.imagekit.io/mkek1asn5/images/عمالة-مدربة-باحترافية.webp"
                                 alt="عمالة مدربة"
                                 class="w-full h-40 object-cover"
                                 onerror="this.src='https://placehold.co/400x300/f9fafb/6b7280?text=Trained+Team'"
@@ -1171,7 +1193,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <div class="card bg-layout-surface rounded-2xl overflow-hidden">
                             <img
-                                src="images/تغليف-آمن-ومواد-عالية-الجودة.jpg"
+                                src="https://ik.imagekit.io/mkek1asn5/images/تغليف-آمن-ومواد-عالية-الجودة.webp"
                                 alt="تغليف آمن"
                                 class="w-full h-40 object-cover"
                                 onerror="this.src='https://placehold.co/400x300/f9fafb/6b7280?text=Safe+Packaging'"
@@ -1189,7 +1211,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <div class="card bg-layout-surface rounded-2xl overflow-hidden">
                             <img
-                                src="images/سيارات-نقل-مجهزة-ومغلقة.png"
+                                src="https://ik.imagekit.io/mkek1asn5/images/سيارات-نقل-مجهزة-ومغلقة.webp"
                                 alt="سيارات نقل مجهزة"
                                 class="w-full h-40 object-cover"
                                 onerror="this.src='https://placehold.co/400x300/f9fafb/6b7280?text=Equipped+Trucks'"
@@ -1415,30 +1437,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                     </div>
 
-                    <form action="#" method="POST" class="space-y-4 text-sm">
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <input
-                                type="text"
-                                placeholder="الاسم بالكامل"
-                                class="w-full p-3.5 rounded-xl border border-slate-200 bg-white focus:outline-none focus:ring-1 focus:ring-brand-primary text-brand-text"
-                            />
-                            <input
-                                type="tel"
-                                placeholder="رقم الهاتف"
-                                class="w-full p-3.5 rounded-xl border border-slate-200 bg-white focus:outline-none focus:ring-1 focus:ring-brand-primary text-brand-text"
-                            />
-                        </div>
-                        <textarea
-                            placeholder="أكتب لنا باختصار: منين لفين؟ عدد الغرف؟ في أدوار عالية أو ونش؟"
-                            class="w-full p-3.5 rounded-xl border border-slate-200 bg-white focus:outline-none focus:ring-1 focus:ring-brand-primary text-brand-text min-h-[90px]"
-                        ></textarea>
-                        <button
-                            type="submit"
-                            class="btn-primary w-full bg-gradient-to-l from-brand-primary to-brand-secondary text-white font-semibold p-3.5 rounded-xl text-sm"
-                        >
-                            اطلب عرض سعر لنقل عفشك
-                        </button>
-                    </form>
+                  
                 </div>
             </div>
         </section>
@@ -1451,7 +1450,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div>
                     <div class="flex items-center gap-2 mb-3">
                         <!-- LOGO IMAGE ADDED -->
-                        <img src="images/logo.jpg" alt="شعار شركة المميز يوسف الصديق" class="w-8 h-8 rounded-2xl object-cover" />
+                        <img src="https://ik.imagekit.io/mkek1asn5/images/logo.webp" alt="شعار شركة المميز يوسف الصديق" class="custom-logo-footer rounded-2xl object-cover" />
                         
                         <div>
                             <div class="text-white text-sm font-semibold">
